@@ -6,7 +6,18 @@ accountCity="maharastra"
 
 let accountName;    //output will be undefined
 
-console.log(accountId);
+//testing 
+/*
+in a same scope
+you can redeclare var variable multiple times
+but you cant do it for let variable
+ex: try this
+var accountPassword="125356"
+let accountEmail="abcas@gmail.com"
+ */
+var accountPassword="125356"
+let accountEmail="abcas@gmail.com" //SyntaxError: Identifier 'accountEmail' has already been declared
+console.log(accountPassword);
 
 /*
 notes
